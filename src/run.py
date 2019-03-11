@@ -55,7 +55,7 @@ def myform():
 def mylist():
     l = ['xmr', 18]
     print('mylist')
-    return json.dumps(l)  # 用jsonify前端会出错
+    return json.dumps(l)  
 
 
 @app.route('/mytable')
